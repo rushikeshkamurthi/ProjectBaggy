@@ -4,11 +4,12 @@ import { Avatar } from 'react-native-paper';
 import styled from 'styled-components/native';
 import { useNavigation } from '@react-navigation/native';
 import Store from './Product';
+import Landing from './Landing';
 const Home = () => {
 
   const navigation = useNavigation();
   return (
-  <Store/>
+  <Landing/>
   )
 }
 
