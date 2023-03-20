@@ -16,7 +16,6 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import { Button, Provider as PaperProvider, TextInput } from 'react-native-paper';
 import { AsyncStorage } from 'react-native';
 import {
   Colors,
